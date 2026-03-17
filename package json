@@ -1,0 +1,13 @@
+{
+  "name": "telegram-pdf-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot to generate A4 PDF with 3-row layout",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.61.0",
+    "pdfkit": "^0.13.0"
+  }
+}
